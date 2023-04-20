@@ -1,21 +1,21 @@
-/* 联系容器样式 */
+/* container */
 .contact-container {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
 
-/* 左半部分样式 */
+/* left */
 .left-column {
     width: 50%;
     display: flex;
-    flex-direction: row; /* 将左侧照片和文字描述设置为在同一行上排列 */
-    justify-content: space-between; /* 将两个 .image-text-container 均分空间 */
+    flex-direction: row; 
+    justify-content: space-between; 
     align-items: center;
 }
 
 .image-text-container {
-    width: 45%; /* 将每个 .image-text-container 的宽度设置为 45% */
+    width: 45%; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +23,7 @@
 }
 
 .image-text-container img {
-    width: 100%; /* 将图片的宽度设置为 100%，以保证图片不变形 */
+    width: 100%; 
     height: auto;
 }
 
@@ -36,7 +36,7 @@
     border-radius: 5px;
 }
 
-/* 右半部分样式 */
+/* right */
 .right-column {
     width: 50%;
     text-align: center;
@@ -51,7 +51,7 @@
     width: 100%;
 }
 
-/* 链接样式 */
+/* link */
 .link {
     display: block;
     margin-top: 20px;

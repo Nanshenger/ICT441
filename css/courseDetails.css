@@ -11,33 +11,29 @@
   .course-list {
     width: 20%;
     display: flex;
-    /* 设置flex-direction为column，使得内部的按钮可以竖直排列 */
     flex-direction: column;
   }
   
-  /* 大框样式 */
   .box {
     margin: 50px auto;
     padding: 50px;
     text-align: center;
-    border: 1px solid #ddd;  /* 添加边框 */
+    border: 1px solid #ddd;  
   }
   
-  /* 按钮容器样式 */
   .btn-container {
     margin-top: 50px;
     width: 100%;
     text-align: center;
   }
   
-  /* 按钮样式 */
   .btn {
     width: 80%;
-    padding: 16px;  /* 将按钮上下间距稍微减小一点 */
+    padding: 16px;  
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: center;
-    margin-bottom: 0px;  /* 同时修改按钮之间的间距 */
+    margin-bottom: 0px;  
   }
 
   

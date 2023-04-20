@@ -48,10 +48,9 @@
     margin-top: 50px;
 }
 
-  /* 大框样式 */
   .box {
     margin: 50px auto;
     padding: 50px;
     text-align: center;
-    border: 1px solid #ddd;  /* 添加边框 */
+    border: 1px solid #ddd;
   }
