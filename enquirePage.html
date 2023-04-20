@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站标题</title>
+    <link rel="stylesheet" href="css/enquirePage.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+
+<body>
+    <header>
+        <!-- 插入LOGO图片 -->
+        <img class="logo" src="assets/logo.png" alt="logo" width="80px" height="80px">
+        <!-- 插入大标题和简单介绍语 -->
+        <h1>Super Star Technology Institution - </h1>
+    </header>
+
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="aboutUs.html">about us</a></li>
+            <li><a href="courseDetails.html">course details</a></li>
+            <li><a href="enquirePage.html">enquire page</a></li>
+            <li><a href="contactPage.html">contact page</a></li>
+        </ul>
+    </nav>
+
+    <!-- 正文区域 -->
+    <main>
+        <div class="box">
+            <form action="#" method="POST">
+                <h2>报名表格</h2>
+        
+                <label for="name">姓名</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="age">年龄</label>
+                <input type="number" id="age" name="age" required>
+        
+                <label for="tel">电话</label>
+                <input type="tel" id="tel" name="tel" required>
+        
+                <label for="email">电子邮件</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="address">地址</label>
+                <input type="text" id="address" name="address" required>
+    
+                <label for="address">报名目的</label>
+                <input type="purpose" id="purpose" name="purpose" required>
+        
+                <label for="account">账号</label>
+                <input type="text" id="account" name="account" required>
+        
+                <label for="password">密码</label>
+                <input type="password" id="password" name="password" required>
+        
+                <label for="vercode">验证码</label>
+                <input type="text" id="vercode" name="vercode" required>
+        
+                <button type="submit" class="btn">提交</button>
+            </form>
+        </div>
+
+    </main>
+    
+
+    <!-- 页脚 -->
+    <footer align="center">
+        2023 SuperStar Technology Institute, all rights reserved.
+    </footer>
+</body>
+
+</html>

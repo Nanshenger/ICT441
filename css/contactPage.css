@@ -1,0 +1,65 @@
+/* 联系容器样式 */
+.contact-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 左半部分样式 */
+.left-column {
+    width: 50%;
+    display: flex;
+    flex-direction: row; /* 将左侧照片和文字描述设置为在同一行上排列 */
+    justify-content: space-between; /* 将两个 .image-text-container 均分空间 */
+    align-items: center;
+}
+
+.image-text-container {
+    width: 45%; /* 将每个 .image-text-container 的宽度设置为 45% */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-text-container img {
+    width: 100%; /* 将图片的宽度设置为 100%，以保证图片不变形 */
+    height: auto;
+}
+
+.image-text-container p {
+    width: 80%;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* 右半部分样式 */
+.right-column {
+    width: 50%;
+    text-align: center;
+}
+
+.image-container {
+    width: 80%;
+    margin: auto;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/* 链接样式 */
+.link {
+    display: block;
+    margin-top: 20px;
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
