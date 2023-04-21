@@ -3,9 +3,9 @@
     justify-content: center;
     margin-top: 50px;
     flex-wrap: wrap;
-}
-
-.btn {
+  }
+  
+  .btn {
     margin: 10px;
     padding: 10px;
     background-color: #4CAF50;
@@ -13,62 +13,105 @@
     border: none;
     cursor: pointer;
     border-radius: 5px;
-}
-
-.btn:hover {
+    transition: all 0.3s ease; /* 添加过渡效果 */
+  }
+  
+  .btn:hover {
     background-color: #3e8e41;
-}
-
-
-/* nav */
-ul {
+    transform: scale(1.05); /* 添加缩放效果 */
+  }
+  
+  /* nav */
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     text-align: center;
-}
-
-li {
+    font-family: Arial, sans-serif; /* 修改字体样式 */
+    font-size: 18px;
+    position: fixed; /* 让导航栏始终固定在页面顶部 */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; /* 设置z-index以确保导航栏在其他内容之上 */
+  }
+  
+  li {
     display: inline-block;
-}
-
-li a {
+    margin: 0 10px; /* 添加间距 */
+  }
+  
+  li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-li a:hover {
+    transition: all 0.3s ease; /* 添加过渡效果 */
+  }
+  
+  li a:hover {
     background-color: #111;
-}
-
-/* logo and title */
-
-header {
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* logo and title */
+  header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 20px;
-}
-
-.logo {
+  }
+  
+  .logo {
     margin-right: 20px;
-}
-
-h1 {
+  }
+  
+  h1 {
     font-size: 32px;
     text-align: center;
     margin: 0 auto;
     flex-grow: 1;
-}
-
-.box {
-margin: 50px auto;
-padding: 50px;
-text-align: center;
-border: 1px solid #ddd;  
-}
+  }
+  
+  .box {
+    margin: 50px auto;
+    padding: 50px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #fff; 
+    padding: 20px; 
+    box-shadow: 0px 0px 10px #ccc; 
+    border-radius: 5px;
+  }
+  
